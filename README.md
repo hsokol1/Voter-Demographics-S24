@@ -6,6 +6,8 @@ This repository contains a multi-part analysis of state demographics, political 
 2. **Classification - Policy/Issue Preferences**: Predictive modeling using issue-specific variables (e.g., reproductive rights, gun control, climate policy).  
 3. **Kendall Tau B Analysis**: Rank correlations between demographics, issues, and legislative control.  
 > **Note:** Variables marked with `(S)` are **scale-reversed**, meaning their interpretation is inverted. For example, a Kendall Tau B of `-0.22` actually indicates a positive relationship. This approach allows consistent interpretation across variables without modifying the original dataset.
+> 
+> **Note:** This dataset was collected during Spring 2024; values may not reflect the current state.
 
 ## 📖 Dataset Overview
 - Data Source: Complied from various online sources
@@ -17,7 +19,7 @@ This repository contains a multi-part analysis of state demographics, political 
 |----------|-------------|---------------|
 | State | State name |
 | Population | Total population |
-| Year | Year of observation |
+| Year | Year of observation | 2016, 2018, 2023 |
 | Religiosity | Aggregate measure of religious adherence |1 (low) – 5 (high) |
 | Diversity | Diversity index | 1 (low) – 5 (high) |
 | Income | Relative income ranking | 1 (low) – 5 (high) |
